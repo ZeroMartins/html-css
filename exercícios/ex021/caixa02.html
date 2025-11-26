@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-image: linear-gradient(to top, #0f0f0fbc, #0000008f, #00000034);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background-color: #f9fdff;
+            color: #0066ff;
+            padding: 10px;
+            margin: 10px;
+        } 
+
+        nav {
+            background-color: #6c6868;
+            padding: 5px;
+            box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.416);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #639fff;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: #1f49ee;
+        }
+
+        main {
+            background-color: #0571fe;
+            padding: 10px;
+            margin: 30px;
+            border-radius: 0.85em;
+            box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.463);
+        }
+
+        article {
+            background-color: rgb(232, 229, 229);
+            padding: 6px;
+        }        
+
+        article > aside {
+            background-color: rgb(209, 209, 209);
+        }
+
+        footer {
+            background-color: #0356db;
+            color: white;
+            padding: 6px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        p > a {
+            text-decoration: none;
+            font-style: italic;
+            font-weight: 700;
+            color: #040000;
+        }
+
+        p >a:hover {
+            text-decoration: underline;
+        }
+
+        div#bola {
+            background-color: #fff;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Aimações Filmes e Séries</h2>
+                <p>Os primeiros dias de novembro já agitam a agenda audiovisual para estreias de títulos na corrida por estatuetas do Oscar. Entre romance, drama e suspense, a programação para o fim de semana está repleta de novas estreias.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur possimus unde voluptatum. Amet, temporibus magni excepturi quaerat rerum provident aut, saepe nostrum, cum consequuntur eum animi impedit soluta quae corporis!</p>
+                <aside>
+                    <p>Artigo</p>
+                </aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus tempore quia quod, consectetur voluptas! Sequi quaerat beatae officia, aliquam deserunt fuga id eius ad saepe soluta laborum voluptas aspernatur?</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="#">@aloisiomartins</a></p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
