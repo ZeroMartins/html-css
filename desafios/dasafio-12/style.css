@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Passion+One:wght@400;700;900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 :root {
@@ -13,12 +16,32 @@
     --cor-05: #BD2A2E;
     --cor-06: #000000;
 
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif ; 
+    --fonte2: 'Passion One', sans-serif;
+    --fonte3: 'Courgette', cursive;
+
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 
 }
 
 html, body {
-    min-width: 100vh;
+    min-height: 100vh;
     background-color: rgb(1, 0, 0);
+    font-family: var(--fonte1);
 }
 
 header {
@@ -30,11 +53,12 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 } 
 
 header > p {
     padding-bottom: 50px;
-
 }
 
 header a, footer a {
@@ -45,6 +69,8 @@ header a, footer a {
 
 header a:hover, footer a:hover {
     text-decoration: underline;
+    font-weight: bolder;
+    color: var(--cor-05);
 }
 
 section {
@@ -52,15 +78,17 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 section > pre {
     white-space: pre-line;
+    font-family: var(--fonte3);
 }
 
 section.imagem > pre {
     white-space: pre-line;
-    width: 350px;
+    display: inline-block;
     background-color: #00000094;
 }
 
