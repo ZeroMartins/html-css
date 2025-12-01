@@ -89,17 +89,31 @@ section > pre {
 section.imagem > pre {
     white-space: pre-line;
     display: inline-block;
-    background-color: #00000094;
+    background-color: #0000007c;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.838);
 }
 
 section.imagem {
     background-color: #414141;
     color: #fff;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.322);
+    background-attachment: fixed;
+     background-size: cover;
 }
 
 section.normal {
     background-color: white;
     color: #000000;
+}
+
+section#img01 {
+    background-image: url('imagens/background002.2.jpg');
+    background-position: center;
+}
+
+section#img02 {
+    background-image: url('imagens/background001.3.jpg');
+    background-position: left center;
 }
 
 footer {
