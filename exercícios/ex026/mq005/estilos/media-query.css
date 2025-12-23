@@ -22,8 +22,8 @@ Grandes Telas: 1200px ou mais
         display: inline-block;
         width: 200px;
     }
-}
-
-main {
-    width: 768px;
+    
+    main {
+        width: 768px;
+    }
 }
