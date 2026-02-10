@@ -71,4 +71,5 @@ div.media > iframe {
     display: block;
     margin: auto;
     width: 90%;
+    padding: 10px;
 }
